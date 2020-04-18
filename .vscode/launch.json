@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "env": {
+                "NODE_ENV": "development",
+            },
+            "type": "node",
+            "request": "launch",
+            "name": "Debug",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/src/app.ts",
+            "preLaunchTask": "build",
+            "outFiles": [
+                "${workspaceRoot}/build/**/*.js"
+            ],
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "stopOnEntry": false,
+            "skipFiles": [
+                "${workspaceFolder}/node_modules/**/*.js"
+            ]
+        }
+    ]
+}
