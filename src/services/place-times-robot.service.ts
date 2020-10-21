@@ -96,6 +96,8 @@ export const PlaceTimesRobotService = {
             console.warn("---------------------------------")
             console.warn('Total lojas sucesso:', totalSuccess)
             console.warn('Total lojas falha:', totalFails)
+            
+            console.warn('OUTPUT', JSON.stringify(storesPopuparTimes))
         }
         catch (e) {
             console.warn('ERRO:', e.message)

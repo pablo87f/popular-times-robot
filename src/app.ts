@@ -294,7 +294,7 @@ if(process.env.NODE_ENV == "production") {
 
     run(times, storeIndex)
 }else {
-    const times = 10
-    const storeIndex = -1
+    const times = 1
+    const storeIndex = 1
     run(times, storeIndex)
 }
