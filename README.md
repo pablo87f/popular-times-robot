@@ -45,10 +45,24 @@ $ yarn build
 $ yarn start
 ```
 
+### Como funciona
+
+Foi feito um levantamento das urls de alguns estabelecimentos no google maps. As url's estão no arquivo `sample.stores.ts`.
+
+O script acessa a página do google maps de cada estabeleciemnto passado como entrada e captura as informações de horários populares para o estabeleciemnto em questão. 
+
+Exempo de um estabelecimento: 
+```javascript
+{
+    name: "Mateus Turuzinho",
+    mapsUrl: "https://www.google.com/maps/place/Mateus+Supermercados+Turuzinho/@-2.5016142,-44.2304185,17z/data=!3m1!4b1!4m5!3m4!1s0x7f691b68236f69f:0x9ed738bb64a29b79!8m2!3d-2.5016142!4d-44.2282298",
+    hasPopularTimes: true
+}
+```
 
 ### Resultado
 - Os dados são mostrados no console como no exemplo abaixo:
-```
+```json
 [
   {
     "store": {
