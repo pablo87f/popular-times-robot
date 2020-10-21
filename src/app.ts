@@ -2,7 +2,7 @@
 
 import sampleStores from "./sample.stores";
 import { PlaceTimesRobotService, NavigationService } from "./services";
-import { Store } from "./types";
+
 
 async function run(times = 1, storeIndex = -1) {
 
