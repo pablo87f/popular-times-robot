@@ -1,6 +1,8 @@
 # Popular times robot
 
-Um Scraper que captura do google maps as informações dos horários populares de um estabelecimento.
+Um Scraper que captura do google maps, as informações dos horários populares de um estabelecimento 
+
+![alt text](https://i.ibb.co/jfSFRn2/popular-times.png)
 
 Este projeto foi feito com propósito de aperfeiçoar e compartilhar conhecimento
 
@@ -45,11 +47,14 @@ $ yarn build
 $ yarn start
 ```
 
-### Como funciona
+## Como funciona
 
-Foi feito um levantamento das urls de alguns estabelecimentos no google maps. As url's estão no arquivo `sample.stores.ts`.
+Ao executar o arquivo `app.ts`, o script acessa a página do google maps de cada estabeleciemnto passado como entrada e captura as informações de horários populares para o estabeleciemnto em questão. 
 
-O script acessa a página do google maps de cada estabeleciemnto passado como entrada e captura as informações de horários populares para o estabeleciemnto em questão. 
+Obs.1: Foi feito um levantamento prévio das url`s de alguns estabelecimentos no google maps.
+
+Obs.2: As url's estão no arquivo `sample.stores.ts`.
+
 
 Exempo de um estabelecimento: 
 ```javascript
