@@ -6,47 +6,6 @@ Um Scraper que captura do google maps, as informações dos horários populares 
 
 Este projeto foi feito com propósito de aperfeiçoar e compartilhar conhecimento
 
-## Iniciando
-
-As instruções a seguir vão te dizer como executar a API para que ela possa ser consumida
-
-
-### Pre-requisitos
-
-- Ter o Node.js instalado
-
-
-    - Tutorial de como instalar o Node.js no Linux: https://phoenixnap.com/kb/install-latest-node-js-and-nmp-on-ubuntu
-
-    - Instalador do Node.js no Windows: https://nodejs.org/en/download/
-
-
-- Ter o yarn instalado
-
-    - Tutorial de como instalar o Yarn (Escolha o seu sistema operacional na página do tutorial): https://legacy.yarnpkg.com/en/docs/install#debian-stable
-
-
-### Instalando dependências do projeto
-
-Instale as dependências executando o comando `yarn` no terminal na pasta do projeto:
-
-```
-~/popular-times-robot
-$ yarn
-```
-
-### Compilando o projeto
-```
-~/popular-times-robot
-$ yarn build
-```
-
-### Executando o projeto
-```
-~/popular-times-robot
-$ yarn start
-```
-
 ## Como funciona
 
 Ao executar o arquivo `app.ts`, o script acessa a página do google maps de cada estabeleciemnto passado como entrada e captura as informações de horários populares para o estabeleciemnto em questão. 
@@ -65,7 +24,7 @@ Exempo de um estabelecimento:
 }
 ```
 
-### Resultado
+## Resultado
 - Os dados são mostrados no console como no exemplo abaixo:
 ```json
 [
@@ -132,6 +91,47 @@ Exempo de um estabelecimento:
     ]
   }
 ]
+```
+
+## Executando o script
+
+As instruções a seguir vão te dizer como executar o script 
+
+
+### Pre-requisitos
+
+- Ter o Node.js instalado
+
+
+    - Tutorial de como instalar o Node.js no Linux: https://phoenixnap.com/kb/install-latest-node-js-and-nmp-on-ubuntu
+
+    - Instalador do Node.js no Windows: https://nodejs.org/en/download/
+
+
+- Ter o yarn instalado
+
+    - Tutorial de como instalar o Yarn (Escolha o seu sistema operacional na página do tutorial): https://legacy.yarnpkg.com/en/docs/install#debian-stable
+
+
+### Instalando dependências do projeto
+
+Instale as dependências executando o comando `yarn` no terminal na pasta do projeto:
+
+```
+~/popular-times-robot
+$ yarn
+```
+
+### Compilando o projeto
+```
+~/popular-times-robot
+$ yarn build
+```
+
+### Executando o projeto
+```
+~/popular-times-robot
+$ yarn start
 ```
 
 ## Construido com
